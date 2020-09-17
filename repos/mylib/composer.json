@@ -1,0 +1,19 @@
+{
+    "name": "andy/mylib",
+    "type": "library",
+    "description": "mylib",
+    "keywords": [],
+    "license": "",
+    "prefer-stable": true,
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.0.0"
+    },
+    "require-dev": {
+    },
+    "autoload": {
+        "psr-4": {
+            "MyLib\\": "src"
+        }
+    }
+}
